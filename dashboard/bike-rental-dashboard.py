@@ -99,7 +99,7 @@ season_rental = create_season_rental(data_day)
 with st.sidebar:
     st.title("Bike Rental Analysis Dashboard")
     st.write("")
-    st.image('bike-rental.png', use_column_width=True)
+    st.image('dashboard/bike-rental.png', use_column_width=True)
     st.write("")
     st.markdown(
         """
