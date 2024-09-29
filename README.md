@@ -27,5 +27,5 @@ To run this dashboard locally:
 
 4. Run the Streamlit application:
     ```bash
-    streamlit run app.py
+    streamlit run bike-rental-dashboard.py
     ```
