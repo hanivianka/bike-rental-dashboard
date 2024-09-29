@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load cleaned data
-data_hour = pd.read_csv('data_hour.csv')
-data_day = pd.read_csv('data_day.csv')
+data_hour = pd.read_csv('dashboard/data_hour.csv')
+data_day = pd.read_csv('dashboard/data_day.csv')
 data_hour['date'] = pd.to_datetime(data_day['date'])
 data_day['date'] = pd.to_datetime(data_day['date'])
 
